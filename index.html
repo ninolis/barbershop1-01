@@ -7,8 +7,10 @@
     <title>Barbershop-01</title>
   </head>
   <body>
+    <!-- Header section -->
     <header>
       <!-- Header Top Line -->
+      <!-- Logo -->
       <a href="./index.html"
         ><img
           src="./images/icons/barbershop-logo.svg"
@@ -19,15 +21,15 @@
       <!-- Menu -->
       <nav>
         <ul>
-          <li><a href=""></a>About</li>
-          <li><a href=""></a>Services and prices</li>
-          <li><a href=""></a>Barbers</li>
-          <li><a href=""></a>Contacts</li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services and prices</a></li>
+          <li><a href="">Barbers</a></li>
+          <li><a href="">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contact phone -->
       <a href="tel:+3804411111111">+380 44 111 1111</a>
-      <!-- Btn -->
+      <!-- Btn online-booking -->
       <button type="button">online-booking</button>
     </header>
     <main>
@@ -55,6 +57,24 @@ The <main> HTML element represents the dominant content of the <body> of a docum
 
       <!-- About us section -->
       <section>
+        <ul>
+          <li>
+            <img
+              src="./images/about/about-img1.jpg"
+              alt="barber shaves a neck"
+              width="270"
+              height="445"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/about/about-img2.jpg"
+              alt="barber makes edging"
+              width="270"
+              height="445"
+            />
+          </li>
+        </ul>
         <p>About</p>
         <h2>Best Barbershop in your city</h2>
         <h3>
@@ -133,7 +153,7 @@ The <main> HTML element represents the dominant content of the <body> of a docum
         <ul>
           <li>
             <img
-              src="./images/john-smith.jpg"
+              src="./images/barbers/john-smith.jpg"
               alt="John Smith photo"
               width="370"
               height="346"
@@ -157,7 +177,7 @@ The <main> HTML element represents the dominant content of the <body> of a docum
           </li>
           <li>
             <img
-              src="./images/michele-doe.jpg"
+              src="./images/barbers/michele-doe.jpg"
               alt="Michele Doe photo"
               width="370"
               height="346"
@@ -181,7 +201,7 @@ The <main> HTML element represents the dominant content of the <body> of a docum
           </li>
           <li>
             <img
-              src="./images/alan-black.jpg"
+              src="./images/barbers/alan-black.jpg"
               alt="Alan Black photo"
               width="370"
               height="346"
@@ -229,24 +249,43 @@ The <main> HTML element represents the dominant content of the <body> of a docum
       <!-- Contacts section -->
       <section>
         <h2>Contacts</h2>
-        <address>
-          <ul>
-            <!-- Link to google maps -->
-            <li>
+
+        <ul>
+          <!-- Link to google maps -->
+          <li>
+            <address>
               <a
                 href="http://www.google.com/maps/place/50.40464536670769,30.3798608743586"
                 target="_blank"
                 rel="noopener nofollow noreferrer"
                 >st. Voloshkova, 1 Kyiv, 08132</a
               >
-            </li>
-            <!-- Link to e-mail address -->
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <!-- Link to phone number  -->
-            <li><a href="tel:+3809911111">+38 099 111 11 11</a></li>
-          </ul>
-        </address>
+            </address>
+          </li>
+          <!-- Link to e-mail address -->
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <!-- Link to phone number  -->
+          <li><a href="tel:+3809911111">+38 099 111 11 11</a></li>
+        </ul>
+        <h3>working hours</h3>
+        <p>
+          Every day from
+          <time datetime="2022-01-01 09:00">9:00</time>
+          //letter "T" or a space means user's local time zone.
+          <time datetime="2022-12-31T22:00">22:00</time>
+        </p>
       </section>
     </main>
+    <footer>
+      <p>&copy;Copyright 2020</p>
+      <ul>
+        <li>
+          <a href="https://www.item-text-01">Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.item-text-02">Youtube</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
